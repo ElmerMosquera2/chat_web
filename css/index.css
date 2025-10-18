@@ -1,0 +1,120 @@
+
+/* ------------------------------------------------------------------- */
+/* 2. CONTENIDO PRINCIPAL (MAIN) */
+/* ------------------------------------------------------------------- */
+.principal {
+    flex-grow: 1; /* Para que ocupe el espacio disponible */
+    padding: 4rem;
+    max-width: 1200px; /* Limitar el ancho para legibilidad */
+    margin: 0 auto;
+}
+
+/* 2.1. Sección Hero (Intro) */
+.principal__intro {
+    text-align: center;
+    padding: 8rem 0;
+}
+
+.principal__intro-titulo {
+    font-size: 5rem;
+    max-width: 800px;
+    margin: 0 auto 2.5rem;
+    font-weight: 900;
+}
+
+.principal__intro-texto {
+    font-size: 2rem;
+    color: var(--color-texto-suave);
+    margin-bottom: 4rem;
+}
+
+.principal__intro-boton {
+    /* Estilo de Botón Primario */
+    display: inline-block;
+    background-color: var(--color-acento);
+    color: var(--color-texto-claro);
+    padding: 1.5rem 3rem;
+    border-radius: var(--border-radius);
+    font-weight: 600;
+    font-size: 1.8rem;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 10px rgba(0, 122, 255, 0.4); /* Sombra sutil del acento */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.principal__intro-boton:hover {
+    background-color: var(--color-acento-hover);
+    transform: translateY(-2px);
+    color: #fff;
+    box-shadow: 0 6px 15px rgba(0, 122, 255, 0.6);
+}
+
+/* 2.2. Sección Beneficios */
+.principal__beneficios {
+    padding: 6rem 0;
+    text-align: center;
+}
+
+.principal__beneficios-titulo {
+    font-size: 3.5rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+}
+
+.principal__beneficios-lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+}
+
+.principal__beneficios-item {
+    background-color: var(--color-fondo-secundario);
+    padding: 3rem;
+    border-radius: var(--border-radius);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Sombra oscura sutil */
+    text-align: left;
+    height: 100%; /* Asegura que todos los items tengan la misma altura */
+}
+
+.principal__beneficios-texto {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+/* 2.3. Sección CTA Final */
+.principal__cta {
+    text-align: center;
+    padding: 8rem 0 10rem;
+}
+
+.principal__cta-titulo {
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.principal__cta-texto {
+    font-size: 1.8rem;
+    color: var(--color-texto-suave);
+    margin-bottom: 3rem;
+}
+
+/* Aplica el mismo estilo de botón que el Hero */
+.principal__cta-boton {
+    display: inline-block;
+    background-color: var(--color-acento);
+    color: var(--color-texto-claro);
+    padding: 1.5rem 3rem;
+    border-radius: var(--border-radius);
+    font-weight: 600;
+    font-size: 1.8rem;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 10px rgba(0, 122, 255, 0.4);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.principal__cta-boton:hover {
+    background-color: var(--color-acento-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 122, 255, 0.6);
+}
+

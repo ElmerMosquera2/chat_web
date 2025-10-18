@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>WEBCHAT - Recuperar Cuenta</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/componentes/__encabezado-y-pie.css">
+    <link rel="stylesheet" href="../../css/paginas/auth.css">
+    <link rel="stylesheet" href="../../css/global/_reset.css">
+</head>
+
+<body>
+    <header class="encabezado">
+        <h1 class="encabezado__titulo">WEBCHAT</h1>
+        <nav class="encabezado__navegacion">
+            <ul class="encabezado__lista">
+                <li class="encabezado__item">
+                    <a href="../../index.html" class="encabezado__enlace">Inicio</a>
+                </li>
+                <li class="encabezado__item">
+                    <a href="../informacion/acerca-de.html" class="encabezado__enlace">Acerca de</a>
+                </li>
+                <li class="encabezado__item">
+                    <a href="../informacion/politica-privacidad.html" class="encabezado__enlace">Términos de uso</a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="encabezado__navegacion-auth">
+            <ul class="encabezado__lista">
+                <li class="encabezado__item">
+                    <a href="./sign-in.html" class="encabezado__enlace">Iniciar Sesión</a>
+                </li>
+                <li class="encabezado__item">
+                    <a href="./sign-up.html" class="encabezado__enlace">Registrarse</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="principal principal--auth">
+        <section class="formulario__contenedor">
+            <h2 class="formulario__titulo">Recuperar cuenta</h2>
+            <form class="formulario formulario--recuperacion">
+                <label class="formulario__etiqueta" for="email">Correo electrónico</label>
+                <input class="formulario__campo-texto" type="email" id="email" name="email" required>
+
+                <button class="formulario__boton-enviar" type="submit">Enviar Correo de Recuperación</button>
+            </form>
+        </section>
+    </main>
+    <footer class="pie">
+        <p class="pie__texto">&copy; 2025 WEBCHAT. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>

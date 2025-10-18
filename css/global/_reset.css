@@ -1,0 +1,63 @@
+/* ------------------------------------------------------------------- */
+/* 1. RESET BÁSICO Y VARIABLES DE COLOR */
+/* ------------------------------------------------------------------- */
+:root {
+    /* Paleta de Modo Oscuro Minimalista */
+    --color-fondo-oscuro: #1E1E1E; /* Fondo principal */
+    --color-fondo-secundario: #252526; /* Para header, footer o cajas */
+    --color-texto-claro: #F0F0F0; /* Texto principal */
+    --color-texto-suave: #B0B0B0; /* Texto secundario o descripción */
+    --color-acento: #007AFF; /* Azul Eléctrico para botones y enlaces */
+    --color-acento-hover: #3399FF;
+    --border-radius: 6px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; /* Hace que 1rem = 10px */
+}
+
+/* ------------------------------------------------------------------- */
+/* 2. ESTILOS BASE DEL CUERPO (BODY) */
+/* ------------------------------------------------------------------- */
+body {
+    background-color: var(--color-fondo-oscuro);
+    color: var(--color-texto-claro);
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ------------------------------------------------------------------- */
+/* 3. ESTILOS DE TIPOGRAFÍA Y ENLACES */
+/* ------------------------------------------------------------------- */
+h1, h2, h3 {
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    color: var(--color-texto-claro); /* Aseguramos el color */
+}
+
+/* Reset de listas */
+ul {
+    list-style: none;
+}
+
+/* Estilo para todos los enlaces */
+a {
+    text-decoration: none;
+    color: var(--color-acento);
+    transition: color 0.2s ease, opacity 0.2s ease;
+}
+
+/* a:hover {
+    color: var(--color-acento-hover);
+    opacity: 0.9;
+} */

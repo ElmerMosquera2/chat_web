@@ -1,0 +1,54 @@
+/* ------------------------------------------------------------------- */
+/* 1. ENCABEZADO (HEADER) */
+/* ------------------------------------------------------------------- */
+.encabezado {
+    background-color: var(--color-fondo-secundario);
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #3A3A3A; /* Separador sutil */
+}
+
+.encabezado__titulo {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: var(--color-acento); /* Destacamos el logo/título */
+}
+
+.encabezado__lista {
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+}
+
+.encabezado__enlace {
+    font-size: 1.6rem;
+    color: var(--color-texto-suave);
+}
+
+.encabezado__enlace:hover {
+    color: var(--color-texto-claro);
+}
+
+/* Estilos específicos para la navegación de autenticación (Iniciar Sesión/Registrarse) */
+.encabezado__navegacion-auth .encabezado__lista {
+    gap: 1.5rem;
+}
+
+
+/* ------------------------------------------------------------------- */
+/* 3. PIE DE PÁGINA (FOOTER) */
+/* ------------------------------------------------------------------- */
+.pie {
+    background-color: var(--color-fondo-secundario);
+    padding: 2rem 4rem;
+    text-align: center;
+    border-top: 1px solid #3A3A3A;
+    margin-top: auto; /* Empuja el footer hacia abajo */
+}
+
+.pie__texto {
+    font-size: 1.4rem;
+    color: var(--color-texto-suave);
+}
