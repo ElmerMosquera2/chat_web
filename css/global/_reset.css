@@ -7,8 +7,8 @@
     --color-fondo-secundario: #252526; /* Para header, footer o cajas */
     --color-texto-claro: #F0F0F0; /* Texto principal */
     --color-texto-suave: #B0B0B0; /* Texto secundario o descripción */
-    --color-acento: #007AFF; /* Azul Eléctrico para botones y enlaces */
-    --color-acento-hover: #3399FF;
+    --color-acento: #2f9e44; /* Verde para botones y enlaces */
+    --color-acento-hover: #39e439;
     --border-radius: 6px;
 }
 
