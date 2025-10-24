@@ -1,0 +1,68 @@
+/* ESTILOS ESPECÍFICOS PARA PÁGINAS DE CONTENIDO (TÉRMINOS, ACERCA DE) */
+
+.principal {
+    flex-grow: 1; 
+    padding: 6rem 4rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.principal__seccion {
+    margin-bottom: 4rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #2F2F2F; 
+}
+
+.principal__seccion:last-child {
+    border-bottom: none;
+}
+
+.principal__subtitulo {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-top: 0; 
+    margin-bottom: 1.5rem;
+    color: var(--color-texto-claro);
+}
+
+.principal__texto {
+    font-size: 1.8rem;
+    line-height: 1.7;
+    color: var(--color-texto-suave);
+    margin-bottom: 2rem;
+}
+
+.principal__lista {
+    margin: 2rem 0 2rem 3rem;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.principal__item {
+    font-size: 1.7rem;
+    color: var(--color-texto-suave);
+    margin-bottom: 1rem;
+    position: relative;
+    padding-left: 2rem;
+}
+
+.principal__item::before {
+    content: "•";
+    color: var(--color-acento);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.principal__texto strong {
+    color: var(--color-texto-claro);
+    font-weight: 700;
+}
+
+.principal__texto a {
+    text-decoration: underline;
+}
